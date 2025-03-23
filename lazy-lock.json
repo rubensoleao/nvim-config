@@ -1,0 +1,11 @@
+{
+  "catppuccin": { "branch": "main", "commit": "5b5e3aef9ad7af84f463d17b5479f06b87d5c429" },
+  "dracula": { "branch": "master", "commit": "65f4225e0526516a67d56c8ac09925a209138e53" },
+  "gruvbox": { "branch": "master", "commit": "f1ecde848f0cdba877acb0c740320568252cc482" },
+  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "nvim-lspconfig": { "branch": "master", "commit": "fb733ac734249ccf293e5c8018981d4d8f59fa8f" },
+  "onedark.vim": { "branch": "main", "commit": "390b893d361c356ac1b00778d849815f2aa44ae4" },
+  "tokyonight.nvim": { "branch": "main", "commit": "057ef5d260c1931f1dffd0f052c685dcd14100a3" },
+  "vim-love-docs": { "branch": "master", "commit": "227e35bb50b54de25c12d05e6509774bc7bd8c83" },
+  "vim-lua": { "branch": "master", "commit": "fa810f85437525bcea0fc4ff22c634935721d86d" }
+}

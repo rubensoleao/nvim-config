@@ -1,0 +1,21 @@
+" Use spaces instead of tabs
+set expandtab
+
+" Number of spaces to use for each step of (auto)indent
+set shiftwidth=4
+
+" Number of spaces that a <Tab> counts for while editing
+set tabstop=4
+
+" Make backspace work correctly with spaces
+set softtabstop=4
+
+" Enable auto-indentation
+set autoindent
+set smartindent
+
+
+nnoremap <F5> :!open -n -a love "/Users/rubens/Documents/Tetris/"<CR>
+
+:set number
+:set relativenumber

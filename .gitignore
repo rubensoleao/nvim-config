@@ -1,0 +1,8 @@
+# Ignore swap files
+*.swp
+*.swo
+*.swn
+
+# Ignore Lazy.nvim files (can be auto-reinstalled)
+lazy/
+site/
