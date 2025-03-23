@@ -45,4 +45,3 @@ nvim +":Lazy sync"
 ---
 
 ### ✌️ **Keep it simple. Keep it fast.**
-```
