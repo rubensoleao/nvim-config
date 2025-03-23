@@ -41,7 +41,3 @@ nvim +":Lazy sync"
 - **Themes**: `lua/plugins/themes.lua`
 - **Theme Logic**: `lua/theme.lua`
 - **Keymaps**: `lua/keymaps.lua`
-
----
-
-### ✌️ **Keep it simple. Keep it fast.**
