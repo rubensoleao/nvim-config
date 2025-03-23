@@ -1,4 +1,3 @@
-```markdown
 # ✨ Neovim Config ✨
 
 > *"Lean. Fast. Focused."*
