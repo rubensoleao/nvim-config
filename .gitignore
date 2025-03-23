@@ -6,3 +6,6 @@
 # Ignore Lazy.nvim files (can be auto-reinstalled)
 lazy/
 site/
+
+# Ignore the save file
+theme.txt
