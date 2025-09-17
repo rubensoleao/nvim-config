@@ -25,10 +25,9 @@ Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aest
 ## 💿 Installation
 
 ```bash
-git clone https://github.com/rubensoleao/nvim-config.git ~/.config/nvim
+git clone git@github.com:rubensoleao/nvim-config.git ~/.config/nvim
 nvim +":Lazy sync"
 ```
-
 - Press **F8** to cycle themes
 - Your theme preference is saved automatically
 
