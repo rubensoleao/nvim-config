@@ -1,3 +1,5 @@
+-- You can browse more themes here:
+-- https://dotfyle.com/neovim/colorscheme/trending
 local M = {}
 
 local themes = {
@@ -5,7 +7,8 @@ local themes = {
     "catppuccin",
     "tokyonight",
     "onedark",
-    "dracula"
+    "dracula",
+    "borlandp"
 }
 
 local current_theme = 1

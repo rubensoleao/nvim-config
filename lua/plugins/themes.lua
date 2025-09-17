@@ -13,4 +13,7 @@ return {
 
     -- Dracula theme
     { "dracula/vim", name = "dracula" },
+
+    -- Borland theme
+    {"caglartoklu/borlandp.vim", name="borlandp"}
 }
