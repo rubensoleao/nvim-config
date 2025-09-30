@@ -8,6 +8,9 @@ require("lazy").setup({
     -- Import telescope plugin
     require("plugins.telescope"),
 
+    -- Import cheatsheet plugin
+    require("plugins.cheatsheet"),
+
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },
 
