@@ -3,6 +3,7 @@
 Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aesthetics — functional, no fluff.
 
 ## 🚀 Features
+- **Telescope** — Powerful fuzzy finder for files, live grep, buffers, and more
 - **Multiple Themes** — Gruvbox, Catppuccin, Tokyonight, Onedark, Dracula, Borland
 - **Persistent Theme Switching** — remembers your last vibe
 - **Fast Switching** — cycle themes instantly with `F8`
@@ -18,6 +19,10 @@ Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aest
 | Keybinding | Action |
 |-----------|--------|
 | `F8`       | Cycle through themes |
+| `<leader>ff`| Telescope: Find files |
+| `<leader>fg`| Telescope: Live grep |
+| `<leader>fb`| Telescope: List buffers |
+| `<leader>fh`| Telescope: Help tags |
 | `<leader>r`| Open Ranger file explorer |
 | `F5`       | Run LÖVE2D game (Tetris) |
 | `:ResetTheme`| Reset to default theme |
@@ -27,6 +32,7 @@ Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aest
 ## 📦 Plugins
 
 - **lazy.nvim** — Fast plugin manager
+- **telescope.nvim** — Fuzzy finder for files, live grep, buffers, and more
 - **Theme Collection** — Gruvbox, Catppuccin, Tokyonight, Onedark, Dracula, Borland
 - **ranger.vim** — File explorer integration
 - **nvim-lspconfig** — Language Server Protocol support
@@ -43,6 +49,11 @@ Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aest
   - **Ubuntu/Debian**: `sudo apt install ranger`
   - **Arch Linux**: `sudo pacman -S ranger`
   - **Fedora**: `sudo dnf install ranger`
+- Install **ripgrep** for Telescope live grepping functionality:
+  - **macOS**: `brew install ripgrep`
+  - **Ubuntu/Debian**: `sudo apt install ripgrep`
+  - **Arch Linux**: `sudo pacman -S ripgrep`
+  - **Fedora**: `sudo dnf install ripgrep`
 
 ### Setup
 ```bash
@@ -61,5 +72,6 @@ nvim +":Lazy sync"
 - **Themes**: `lua/plugins/themes.lua` — Theme plugin definitions
 - **Theme Logic**: `lua/theme.lua` — Theme switching and persistence logic
 - **Keymaps**: `lua/keymaps.lua` — Custom keybindings
+- **Telescope**: `lua/plugins/telescope.lua` — Fuzzy finder configuration
 - **Ranger**: `lua/plugins/ranger.lua` — File explorer configuration
 - **Theme Storage**: `theme.txt` — Persistent theme preference
