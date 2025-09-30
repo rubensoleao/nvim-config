@@ -5,6 +5,9 @@ require("lazy").setup({
     -- Import ranger plugin 
     require("plugins.ranger"),
 
+    -- Import telescope plugin
+    require("plugins.telescope"),
+
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },
 
