@@ -1,12 +1,14 @@
 {
+  "bclose.vim": { "branch": "master", "commit": "99018b4a2dd18aea1cbd3aa23565b01a0f8c5b73" },
   "borlandp": { "branch": "master", "commit": "c75eb984a26b507fa0d7b4ae5ff3bf4451daa51f" },
-  "catppuccin": { "branch": "main", "commit": "5b5e3aef9ad7af84f463d17b5479f06b87d5c429" },
-  "dracula": { "branch": "master", "commit": "65f4225e0526516a67d56c8ac09925a209138e53" },
-  "gruvbox": { "branch": "master", "commit": "f1ecde848f0cdba877acb0c740320568252cc482" },
+  "catppuccin": { "branch": "main", "commit": "5af9374957a65be8770696da295dc9016b96f241" },
+  "dracula": { "branch": "master", "commit": "d4b0823100c702af127cba8dd5595a8f599041ec" },
+  "gruvbox": { "branch": "master", "commit": "697c00291db857ca0af00ec154e5bd514a79191f" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
-  "nvim-lspconfig": { "branch": "master", "commit": "fb733ac734249ccf293e5c8018981d4d8f59fa8f" },
-  "onedark.vim": { "branch": "main", "commit": "390b893d361c356ac1b00778d849815f2aa44ae4" },
-  "tokyonight.nvim": { "branch": "main", "commit": "057ef5d260c1931f1dffd0f052c685dcd14100a3" },
+  "nvim-lspconfig": { "branch": "master", "commit": "0867a61e745920dd754c660a504fed4afb44bd0f" },
+  "onedark.vim": { "branch": "main", "commit": "68dca198f23ef979dc6a123ad50c598902117232" },
+  "ranger.vim": { "branch": "master", "commit": "91e82debdf566dfaf47df3aef0a5fd823cedf41c" },
+  "tokyonight.nvim": { "branch": "main", "commit": "4d159616aee17796c2c94d2f5f87d2ee1a3f67c7" },
   "vim-love-docs": { "branch": "master", "commit": "227e35bb50b54de25c12d05e6509774bc7bd8c83" },
   "vim-lua": { "branch": "master", "commit": "fa810f85437525bcea0fc4ff22c634935721d86d" }
 }

@@ -2,6 +2,8 @@ require("lazy").setup({
     -- Import themes from separate file
     require("plugins.themes"),
 
+    -- Import ranger plugin 
+    require("plugins.ranger"),
 
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },

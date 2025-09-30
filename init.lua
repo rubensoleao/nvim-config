@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 
 -- Bootstrap lazy.nvim (cross-platform)
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
