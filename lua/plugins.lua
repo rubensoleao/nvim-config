@@ -16,6 +16,9 @@ require("lazy").setup({
 
     -- Import lsp plugin
     require("plugins.lsp"),
+    
+    -- Import auto-session plugin
+    require("plugins.auto-session"),
 
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },

@@ -1,4 +1,5 @@
 {
+  "auto-session": { "branch": "main", "commit": "517a75727d28a4d1ee9c79b56dde239a5408778f" },
   "bclose.vim": { "branch": "master", "commit": "99018b4a2dd18aea1cbd3aa23565b01a0f8c5b73" },
   "borlandp": { "branch": "master", "commit": "c75eb984a26b507fa0d7b4ae5ff3bf4451daa51f" },
   "catppuccin": { "branch": "main", "commit": "5b5e3aef9ad7af84f463d17b5479f06b87d5c429" },
