@@ -31,6 +31,7 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.scrolloff = 8
 
 -- Run LÖVE with F5
 vim.keymap.set("n", "<F5>", ":!open -n -a love '/Users/rubens/Documents/Tetris/'<CR>")
