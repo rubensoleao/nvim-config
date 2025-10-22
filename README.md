@@ -25,6 +25,8 @@ Minimal, fast, and organized. A clean Neovim configuration inspired by '90s aest
 | `<leader>fh`| Telescope: Help tags |
 | `<leader>r`| Open Ranger file explorer |
 | `F5`       | Run LÖVE2D game (Tetris) |
+| `gd`       | LSP: Go to definition |
+| `gr`       | LSP: Show references |
 | `:ResetTheme`| Reset to default theme |
 
 ---

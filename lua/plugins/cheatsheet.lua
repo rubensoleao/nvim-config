@@ -17,6 +17,13 @@ local custom = {
     },
   },
   {
+    "LSP",
+    {
+      { "gd", "Go to definition" },
+      { "gr", "Show references" },
+    },
+  },
+  {
     "General",
     {
       { "<F5>", "Run LÖVE game" },

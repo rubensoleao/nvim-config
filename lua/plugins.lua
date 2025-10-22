@@ -11,6 +11,12 @@ require("lazy").setup({
     -- Import cheatsheet plugin
     require("plugins.cheatsheet"),
 
+    -- Import mason plugin
+    require("plugins.mason"),
+
+    -- Import lsp plugin
+    require("plugins.lsp"),
+
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },
 
