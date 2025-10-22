@@ -1,4 +1,30 @@
 -- Custom cheatsheet items organized by category
+
+local custom = {
+  {
+    "Telescope",
+    {
+      { "<leader>ff", "Find files" },
+      { "<leader>fg", "Live grep" },
+      { "<leader>fb", "List buffers" },
+      { "<leader>fh", "Help tags" },
+    },
+  },
+  {
+    "File Explorer", 
+    {
+      { "<leader>r", "Open Ranger" },
+    },
+  },
+  {
+    "General",
+    {
+      { "<F5>", "Run LÖVE game" },
+      { "<F8>", "Switch themes" },
+    },
+  },
+}
+
 return {
   "rubensoleao/cheatsheet.nvim",
   dependencies = {
@@ -22,5 +48,8 @@ return {
       },
 
     })
+
+    -- Add keybinding for Super + ? to open cheatsheet
+    vim.keymap.set("n", "<D-?>", ":Cheatsheet<CR>", { desc = "Open cheatsheet" })
   end,
 }
