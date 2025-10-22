@@ -3,6 +3,10 @@ return {
     dependencies = {
       "williamboman/mason.nvim",
       "williamboman/mason-lspconfig.nvim",
+      -- This bellow is for handeling my monorepo with multiple packages.json files.
+      -- Not sure how it works, but it works. 
+      "yioneko/nvim-vtsls" -- vtsls for TypeScript/JavaScript
+      
     },
     config = function()
       require("mason").setup()
@@ -13,6 +17,8 @@ return {
       })
   
       local lspconfig = require("lspconfig")
+      local util = require("lspconfig.util")
+      
       lspconfig.tsserver.setup({
         -- optional niceties / root detection
         root_dir = require("lspconfig.util").root_pattern(
@@ -20,7 +26,17 @@ return {
         ),
         filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
       })
-  
+
+      lspconfig.vtsls.setup({
+        -- Let vtsls pick the nearest project root automatically
+        root_dir = util.root_pattern(
+          "tsconfig.json",
+          "jsconfig.json",
+          "package.json",
+          ".git"
+        ),
+      })
+
       -- Optional: attach LSP keymaps when a client connects
       vim.api.nvim_create_autocmd("LspAttach", {
         callback = function(args)
