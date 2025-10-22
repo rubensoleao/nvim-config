@@ -20,6 +20,9 @@ require("lazy").setup({
     -- Import auto-session plugin
     require("plugins.auto-session"),
 
+    -- Import git-blame plugin
+    require("plugins.git-blame"),
+
     -- Lua syntax highlighting
     { "tbastos/vim-lua" },
 
