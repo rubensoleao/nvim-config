@@ -16,6 +16,9 @@ require("lazy").setup({
 
     -- Import lsp plugin
     require("plugins.lsp"),
+
+    -- Import Auto complete plugin
+    require("plugins.completion"),
     
     -- Import auto-session plugin
     require("plugins.auto-session"),
