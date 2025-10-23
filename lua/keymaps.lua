@@ -9,3 +9,7 @@ vim.api.nvim_create_user_command("ResetTheme", theme.reset_theme, {})
 
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = true, desc = "Go to definition" })
 vim.keymap.set('n', 'gr', require('telescope.builtin').lsp_references, { desc = "LSP References" })
+
+vim.keymap.set("n", "<leader>F", function()
+  vim.lsp.buf.format({ async = true })
+end, { desc = "Format current file" })

@@ -12,7 +12,6 @@ return {
       require("mason").setup()
   
       require("mason-lspconfig").setup({
-        ensure_installed = { "tsserver" },   -- add more servers if you want
         automatic_installation = true,
       })
   
